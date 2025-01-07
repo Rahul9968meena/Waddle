@@ -1,25 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<%- layout("/layouts/boilerpalte.ejs") %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waddle</title>
-</head>
-
-<body>
-    <h3>All Listings</h3>
-    <form action="/listings/new" method="GET">
-        <button>Create New Listing</button>
-    </form>
-    <br>
-    <% for(let listing of allListings) { %>
-        <li>
-            <a href="/listings/<%- listing._id %>">
-                <%= listing.title %>
-            </a>
-        </li>
-        <% } %>
-</body>
-
-</html>
+    <body>
+        <h3>All Listings</h3>
+        <!-- No need to have this given below any more -->
+        <!-- <form action="/listings/new" method="GET">
+            <button>Create New Listing</button>
+        </form> -->
+        <br>
+        <% for(let listing of allListings) { %>
+            <li>
+                <a href="/listings/<%- listing._id %>">
+                    <%= listing.title %>
+                </a>
+            </li>
+            <% } %>
+    </body>
