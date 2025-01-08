@@ -11,3 +11,33 @@
 .nav-link {
     color: #222222 !important;
 }
+
+footer {
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+
+.footer-cont {
+    margin-top: 40px;
+}
+
+.footer-brand {
+    width: 100px;
+    height: 100px;
+
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+/* card  */
+
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.listing-link {
+    text-decoration: none;
+}
