@@ -41,3 +41,17 @@ footer {
 .listing-link {
     text-decoration: none;
 }
+
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.show-img {
+    height: 30vh;
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+}
